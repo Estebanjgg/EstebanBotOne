@@ -29,4 +29,11 @@ pip install flask
 
 pip install slackeventsapi
 
+pip install Jinja2
+pip install MarkupSafe
+pip install MarkupSafe
+
 https://ngrok.com/download
+
+
+[ngrok-stable-windows-amd64.zip](https://github.com/Estebanjgg/EstebanBotOne/files/8423536/ngrok-stable-windows-amd64.zip)
