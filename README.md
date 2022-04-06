@@ -9,18 +9,24 @@ pip install slackclient
 First part of the code
 
 The code show gives us a simple message of hello world
-
+<div>
+  <p>
 import slack
+    <br>
 import os
+    <br>
 from pathlib import Path
+    <br>
 from dotenv import load_dotenv
-
+<br>
 env_path = Path('.') / '.env'
 load_dotenv(dotenv_path=env_path)
-
+    <br>
 client = slack.WebClient(token=os.environ["SLACK_TOKEN"])
-
+<br>
 client.chat_postMessage(channel='#test1', text='que onda')
+    </p>
+  </div>
 
 
 ![](image/README/1649133010761.png)
