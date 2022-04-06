@@ -57,5 +57,6 @@ pip install MarkupSafe
 
 https://ngrok.com/download
 
+[anaconda.zip](https://github.com/Estebanjgg/EstebanBotOne/files/8426866/anaconda.zip)
 
 [ngrok-stable-windows-amd64.zip](https://github.com/Estebanjgg/EstebanBotOne/files/8423536/ngrok-stable-windows-amd64.zip)
