@@ -19,16 +19,19 @@ from pathlib import Path
     <br>
 from dotenv import load_dotenv
 <br>
-env_path = Path('.') / '.env'
+    <br>
+    env_path = Path('.') / '.env'
 load_dotenv(dotenv_path=env_path)
+    <br>
     <br>
 client = slack.WebClient(token=os.environ["SLACK_TOKEN"])
 <br>
+   <br>
 client.chat_postMessage(channel='#test1', text='que onda')
     </p>
   </div>
-
-
+<br>
+<br>
 ![](image/README/1649133010761.png)
 
 **create a file extension .py**
